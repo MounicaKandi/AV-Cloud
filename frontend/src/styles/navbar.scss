@@ -1,0 +1,38 @@
+#navbar {
+  font-size: 20px;
+  padding: 0!important;
+  background: #020200!important;
+  border: 1px solid #020200!important;
+  li.nav-item {
+    padding: 1rem!important;
+    transition: none;
+    a {
+      color: rgb(245,245,245);
+      transition: none;
+    }
+    &:hover {
+      background: rgb(245, 245, 245);
+    }
+    &:hover a {
+      color: black;
+    }
+  }
+  .navbar-brand {
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25);
+    color: rgb(232, 229, 240);
+    font-size: 30px;
+    padding: 1.5rem;
+    margin: 0;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: cursive;
+  }
+  .fa-navbar-icons {
+    padding-right: 10px;
+    align-self: center;
+    margin-top: 5px;
+    float: left;
+    /* padding: auto; */
+    color: white;
+  }
+}
